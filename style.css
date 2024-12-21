@@ -1,0 +1,86 @@
+
+/* ## Colors
+
+- Green: hsl(75, 94%, 57%)
+
+- White: hsl(0, 0%, 100%)
+
+- Grey 700: hsl(0, 0%, 20%)
+- Grey 800: hsl(0, 0%, 12%)
+- Grey 900: hsl(0, 0%, 8%)
+
+- Font size (paragraph): 14px
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+ 
+ *{
+    margin: 0;
+    padding: 0;
+  
+
+ }
+ body{
+    background-color: hsl(0, 0%, 8%);
+ }
+.main{
+    width: 350px;
+    min-height: 100vh;
+    text-align: center;
+    margin: 150px auto;
+    background: hsl(0, 0%, 12%);
+    border-radius: 10px;
+
+ }
+ .main img{
+    width: 80px;
+    height:80px ;
+    border-radius: 50%;
+    padding: 35px;
+
+ }
+ .main h2{
+    color: #fff;
+    font-family: "Inter",sans-serif;
+    font-size: 25px;
+    text-transform:capitalize ;
+    padding:10px ;
+
+ }
+ .main h3{
+    color:hsl(75, 94%, 57%) ;
+    font-family: "Inter",sans-serif;
+    font-size: 14px;
+    text-transform: capitalize;
+    padding-bottom:20px ;
+ }
+ .main p{
+    color: #fff;
+    font-size: 16px;
+    font-family: "Inter",sans-serif;
+ }
+.main .items{
+    margin: 15px;
+
+
+}
+.main .items p{
+    width: 80%;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background:hsl(0, 0%, 20%);
+    text-align: center;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-family: "Inter",sans-serif;
+    transition: 0.5s ease;
+   
+}
+.main .items p:hover{
+    background:hsl(75, 94%, 57%) ;
+    transform: scale(1.1);
+}
